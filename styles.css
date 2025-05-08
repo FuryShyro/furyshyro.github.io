@@ -206,7 +206,6 @@ header {
     height: auto;
 }
 
-/* Presentation Section */
 .presentation {
     padding: 5rem 0;
     background-color: var(--primary);
@@ -259,7 +258,7 @@ header {
 
 .video-wrapper {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
+    padding-bottom: 56.25%;
     background-color: var(--darker);
     border-radius: 10px;
     overflow: hidden;
@@ -281,7 +280,6 @@ header {
     cursor: pointer;
 }
 
-/* Download Section */
 .download {
     padding: 5rem 0;
     background-color: var(--darker);
@@ -314,7 +312,6 @@ header {
     margin-bottom: 1.5rem;
 }
 
-/* Footer */
 footer {
     background-color: var(--darker);
     padding: 2rem 0;
@@ -355,7 +352,6 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Animations */
 .float-anim {
     animation: float 3s ease-in-out infinite;
 }
@@ -376,7 +372,6 @@ footer {
     100% { transform: scale(1); }
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .hero .container {
         flex-direction: column;
@@ -396,7 +391,6 @@ footer {
     }
 }
 
-/* FAQ Section */
 .faq {
     padding: 5rem 0;
     background-color: var(--primary);
