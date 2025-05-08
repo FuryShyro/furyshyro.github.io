@@ -86,7 +86,7 @@ span {
 }
 
 header {
-    background-color: rgba(0, 10, 40, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
     padding: 0rem 0;
     box-shadow: 0 4px 30px rgba(0, 245, 255, 0.1);
