@@ -440,6 +440,7 @@ footer {
 .patch-notes {
     padding: 5rem 0;
     background-color: var(--primary);
+    margin-top: 4rem; /* ajoute un espace au-dessus si nécessaire */
 }
 
 .patch-list {
