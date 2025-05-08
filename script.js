@@ -1,6 +1,4 @@
-// Animation pour le chargement de la page
 document.addEventListener('DOMContentLoaded', function() {
-    // Animation des cartes de téléchargement
     const downloadCards = document.querySelectorAll('.download-card');
     
     downloadCards.forEach((card, index) => {
@@ -14,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 200 * index);
     });
     
-    // Simulation du clic sur la vidéo
     const videoPlaceholder = document.querySelector('.video-placeholder');
     if(videoPlaceholder) {
         videoPlaceholder.addEventListener('click', function() {
